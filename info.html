@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Information</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/info.css">
+
+</head>
+<body>
+    <div class="info-card">
+        <div class="info-card-header">
+            <h2>Site Information</h2>
+        </div>
+        <div class="info-card-body">
+            <div class="info-item">
+                <label>Developer:</label>
+                <span>김찬표</span>
+            </div>
+            <div class="info-item">
+                <label>Development Date:</label>
+                <span>2024년 05월 22일 ~ </span>
+            </div>
+            <div class="info-item">
+                <label>Frontend Language:</label>
+                <span>HTML</span>
+            </div>
+            <div class="info-item">
+                <label>Backend Language:</label>
+                <span>PHP</span>
+            </div>
+            <div class="info-item">
+                <label>Scripting Language:</label>
+                <span>JavaScript</span>
+            </div>
+            <div class="info-item">
+                <label>Database:</label>
+                <span>MySQL</span>
+            </div>
+            <div class="info-item">
+                <label>Server Time:</label>
+                <span><?php echo date("Y-m-d H:i:s"); ?></span>
+            </div>
+            <div class="info-item">
+                <label>PHP Version:</label>
+                <span><?php echo phpversion(); ?></span>
+            </div>
+            <div class="info-item" id="network-traffic">
+                <label>Network Traffic:</label>
+                <span>Loading...</span>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/js/traffic.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    padding: 20px;
+}
+.info-card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.info-card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.info-card-body {
+    padding: 20px;
+}
+.info-item {
+    margin-bottom: 10px;
+}
+.info-item label {
+    font-weight: bold;
+}

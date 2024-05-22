@@ -1,0 +1,25 @@
+/* login.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.login-container {
+    width: 350px; /* 더 넓게 설정 */
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    word-break: keep-all; /* 줄 바꿈 방지 */
+}
+.login-container .form-group {
+    text-align: left;
+}
